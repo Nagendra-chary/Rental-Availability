@@ -1,6 +1,8 @@
-html, body {
-	height: 100%;
-	width: 100%;
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 .sidebar {
     width: 60px;
@@ -30,8 +32,8 @@ html, body {
     border-bottom: 1px solid #e6dfdf;
 }
 .tools_icon img {
-	width: 35px;
-	height: 37px;
+    width: 35px;
+    height: 37px;
 }
 .sidebar_icons.tools_icon {
     text-align: center;
@@ -41,9 +43,9 @@ html, body {
     border-top: 1px solid #e6dfdf;
 }
 .bunch_icons .sidebar_icons {
-	text-align: center;
-	padding: 15px 0;
-	border-bottom: 1px solid #e6dfdf;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6dfdf;
 }
 .bunch_icons {
     position: absolute;
@@ -60,6 +62,7 @@ footer {
 .search_bar {
     margin-left: 60px;
     /* width: 30%; */
+    
     padding: 0;
 }
 .search_bar input {
@@ -84,9 +87,146 @@ footer {
     text-align: right;
     width: 52%;
 }
-.btn-danger, .btn-danger:hover {
+.btn-danger,
+.btn-danger:hover {
     background-color: #da2337;
 }
 footer.row {
-	margin: 0 !important;
+    margin: 0 !important;
+    position: fixed;
+    bottom: 0px;
+}
+/*  */
+
+.sidebox {
+    margin-left: 60px;
+    padding: 0;
+    overflow: hidden;
+}
+.left_container {
+    margin: 0;
+    padding: 0;
+}
+.greenbox {
+    width: 30px;
+    height: 30px;
+    background: green;
+    border-radius: 6px;
+}
+.left_container>.row {
+    margin: 0px;
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.available {
+    padding-left: 4px;
+    padding-top: 4px;
+}
+.firstbox {
+    padding-top: 65px !important;
+    padding-left: 12px !important;
+}
+.coloredbox {
+    background: #eeedeb;
+    padding: 10px;
+    color: #4e4e4e;
+}
+.highlight {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #4e4e4e;
+    padding-top: 10px;
+}
+.normal {
+    font-size: 13px;
+    color: #4e4e4e;
+}
+.right_container {
+    overflow: hidden;
+    height: 580px;
+}
+.monthtext {
+    padding-top: 9px;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+.monthtext span {
+    font-weight: bold;
+    padding-right: 5px;
+}
+.monthcontainer {} .monthdays {
+    display: block;
+    width: 80px;
+    float: left;
+    text-align: center;
+    padding: 8px;
+}
+.greenblock {
+    background-image: url("../images/9.png");
+    min-height: 56px;
+    height: 56px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-top: 35px;
+    background-size: 100%;
+}
+.redblock {
+    background-image: url("../images/8.png");
+    height: 56px;
+    width: 100%;
+    margin-top: 30px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.monthimages {
+    position: relative;
+    padding-top: 78px;
+}
+.insbox {
+    background: red;
+    height: 25px;
+    width: 25px;
+    float: right;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+.start {
+    padding: 10px;
+}
+.datelabel {
+    padding: 10px;
+}
+.bottombox {} .headingtext {
+    font-weight: bold;
+    height: 30px;
+    width: 120px;
+}
+.labeltext {} .tablebox {
+    position: relative;
+    float: left;
+    width: 100px;
+}
+.leftbottombox {
+    padding-right: 150px;
+    float: right;
+}
+.popover {
+    max-width: 600px !important;
+}
+.forscroll {
+    overflow-y: auto;
+    height: 560px;
+}
+.redtext {
+    color: #da2337;
+}
+.btnalignment {
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.titleclass {
+    font-size: 17px;
+    font-weight: bold;
 }
